@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #191919;
+    line-height: 1.65;
+}
+/*Latihan 1*/
+.container-satu {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #191919;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 1%;
+    border: #252525;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container-satu ul {
+    list-style-type: circle;
+}
+
+.container-satu ul li a {
+    color: #939393;
+    text-decoration: none;
+    list-style-type: circle;
+}
+
+.container-satu .sidebar-satu {
+    width: 1000px;
+    color: #f6f6f6;
+}
+
+.container-satu .kolom-utama {
+    width: 3350px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #f6f6f6;
+}
+
+.container-satu .kolom-utama .banner1 {
+    width: 100%;
+    height: auto;
+}
+
+.container-satu .kolom-utama .author {
+    color: #939393;
+}
+
+.container-satu .sidebar-dua {
+    width: 1000px;
+    color: #f6f6f6;
+    background-color: #212121;
+    padding: 20px;
+}
+
+.container-satu .sidebar-dua .banner2 {
+    width: 100%;
+    height: auto;
+}
