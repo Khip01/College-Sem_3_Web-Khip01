@@ -1,26 +1,19 @@
-h2 {
-    color: orange;
-    font-family: "Trebuchet MS";
-    text-align: center;
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px;
 }
-
-.kotak {
-    padding: 50px;
+.dua {
     width: 100px;
-    color: #fff;
-    margin: 10px;
-    background: orange;
+    height: 100px;
+    background-color: lightblue;
 }
-
-#kotak {
-    width: 400px;
-    color: #fff;
-    background: blue;
-    padding: 50px;
-}
-
-body {
-    background: url('img/tree1.jpg'), url('img/field1.jpg');
-    background-repeat: no-repeat, repeat;
-    color: white;
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
 }
