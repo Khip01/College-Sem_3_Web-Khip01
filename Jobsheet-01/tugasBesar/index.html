@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studi Kasus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="response.html" method="POST">
+      <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <!-- TextField Nama -->
+        <div class="input-field-row">
+          <div class="name">Nama</div>
+          <input type="text" name="name" />
+        </div>
+        <!-- TextField Email -->
+        <div class="input-field-row">
+          <div class="email">Email</div>
+          <input type="text" name="email" />
+        </div>
+        <!-- DateTime Tanggal lahir -->
+        <div class="input-field-row">
+          <div class="birthDate">Tanggal lahir</div>
+          <input type="datetime-local" name="birthDate" />
+        </div>
+        <!-- Dropdown JenisKelamin  -->
+        <div class="input-field-row">
+          <div class="gender">Jenis Kelamin</div>
+          <select name="gender">
+            <option value="l">Laki-laki</option>
+            <option value="p">Perempuan</option>
+          </select>
+        </div>
+        <!-- TextArea Alamat -->
+        <div class="input-text-area">
+          <div class="address">Alamat</div>
+          <textarea name="address" cols="45" rows="6"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Komentar</legend>
+        <!-- TextArea Source -->
+        <div class="input-field-column">
+            <div class="source">Darimana Anda mengetahuibuku ini?</div>
+            <select name="source">
+              <option value="google">Google</option>
+              <option value="friend">Teman</option>
+              <option value="closest-person">Orang Terdekat</option>
+              <option value="other-people">Orang Asing</option>
+            </select>
+        </div>
+        <!-- RadioField Opinion -->
+        <div class="input-field-column">
+            <div class="opinion">Bagaimana menurut anda terhadap buku ini?</div> 
+            <div class="input-option-row">
+                <div>
+                    <input type="radio" id="usualRadio" name="optionRadio" value="usual">
+                    <label for="usualRadio">Biasa</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="niceRadio" name="optionRadio" value="nice">
+                    <label for="niceRadio">Bagus</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="interestingRadio" name="optionRadio" value="interesting">
+                    <label for="interestingRadio">Menarik</label><br>
+                </div>
+            </div>
+        </div>
+        <!-- TextArea Komentar -->
+        <div class="input-text-area">
+            <div class="comment">Komentar Anda</div>
+            <textarea name="comment" cols="45" rows="6"></textarea>
+        </div>
+        <!-- Checkbox Notifikasi email -->
+        <input type="checkbox" id="notif" name="notif" value="notifTrue">
+        <label for="notif">Kirim ke Email bila ada info terbaru</label>
+      </fieldset>
+      <input type="submit" name="send" value="Send" class="send-button" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* General */
+fieldset {
+    margin-top: 20px;
+}
+
+/* Input Row Field */
+.input-field-row {
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-field-row input, .input-field-row select {
+    width: 200px;
+}
+
+/* Input Column Field */
+.input-field-column {
+    width: 350px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.input-field-column  select {
+    width: 350px;
+}
+
+/* Input Column TextArea */
+.input-text-area {
+    width: 350px;
+    height: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* Input Option Row */
+.input-option-row {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button Style */
+.send-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+}
