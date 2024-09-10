@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form name="formSubmit" action="response.html" onsubmit="return validateForm()" method="POST">
+        First Name : <input type="text" name="firstName"> <br>
+        Last Name : <input type="text" name="lastName"> <br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function validateForm() {
+            let firstName = document.forms[0]["firstName"].value;
+            let lastName = document.forms[0]["lastName"].value;
+            if (firstName == "" && lastName == "") {
+                alert("First Name and Last Name must be filled out");
+                return false;
+            } else if(firstName == "") {
+                alert("First Name must be filled out");
+                return false;
+            } else if (lastName == "") {
+                alert("Last Name must be filled out");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
