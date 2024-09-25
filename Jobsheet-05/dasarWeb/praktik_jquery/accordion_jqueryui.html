@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY UI -->
+    <script
+      src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"
+      integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        $(function () {
+            $("#jQuery_accordion").accordion();
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="jQuery_accordion">
+        <h3>header 1</h3>
+            <p> This is section 1.
+            Place your content here in paragraphs or use div elements etc. </p>
+        <h3>header 2</h3>
+            <p>This is section 2. You can also include images like this: 
+            <br> <img src="img/gambar1.jpg"/></p>
+        <h3>header 3</h3>
+            <div>
+                <p>This is section 3. Content can include listing as well.
+                <ol>
+                    <li>item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+                </p>
+            </div>
+    </div>
+</body>
+</html>
